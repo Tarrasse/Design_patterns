@@ -2,6 +2,12 @@ class Shape:
     def __init__(self):
         pass
 
+    def draw(self):
+        pass
+
+    def erase(self):
+        pass
+
     @staticmethod
     def factory(instance_type):
         if instance_type == Circle.__name__:
@@ -39,6 +45,7 @@ def main():
     square.erase()
     circle.draw()
     circle.erase()
+
 
 if __name__ == '__main__':
     main()
